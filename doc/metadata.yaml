@@ -2,6 +2,7 @@ description: null
 github_branch: master
 github_branches:
 - master
+github_description: null
 github_repo: SIPM01
 github_url: https://github.com/mlab-modules/SIPM01
 homepage: false
@@ -14,4 +15,4 @@ tags:
 - mlab
 - mlab-module
 title: SIPM01
-updated: '2023-09-16T22:09:41.380249+00:00'
+updated: '2023-09-17T11:33:29.491446+00:00'
