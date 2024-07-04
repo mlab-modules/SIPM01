@@ -1,8 +1,8 @@
-description: null
+description: 'Silicon photomultiplier (SiPM) analog front end '
 github_branch: SIPM01A
 github_branches:
 - master
-github_description: null
+github_description: 'Silicon photomultiplier (SiPM) analog front end '
 github_repo: SIPM01
 github_url: https://github.com/mlab-modules/SIPM01
 homepage: false
@@ -15,5 +15,9 @@ status: 3
 tags:
 - mlab
 - mlab-module
+- scintillation-detector
+- silicon-photomultiplier
+- sipm
+- sipm-detector
 title: SIPM01
-updated: '2024-07-04T20:43:05.691503+00:00'
+updated: '2024-07-04T21:10:41.842278+00:00'
