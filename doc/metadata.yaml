@@ -1,12 +1,13 @@
 description: null
-github_branch: master
+github_branch: SIPM01A
 github_branches:
 - master
 github_description: null
 github_repo: SIPM01
 github_url: https://github.com/mlab-modules/SIPM01
 homepage: false
-images: []
+images:
+- doc/img/SIPM01A_QRcode.png
 issues: 0
 mark: 50
 replaced: SIPM02
@@ -15,4 +16,4 @@ tags:
 - mlab
 - mlab-module
 title: SIPM01
-updated: '2023-09-17T11:53:23.516104+00:00'
+updated: '2024-07-04T20:43:05.691503+00:00'
