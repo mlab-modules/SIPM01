@@ -11,6 +11,6 @@
 # SIPM01A - Silicon photomultiplier analog front end
 
 
-![SIPM01A top](doc/img/SIPM01-top.png)
+![SIPM01A top](doc/gen/img/SIPM01-top.png)
 
-![SIPM01A bottom](doc/img/SIPM01-bottom.png)
+![SIPM01A bottom](doc/gen/img/SIPM01-bottom.png)
