@@ -1,7 +1,6 @@
 description: 'Silicon photomultiplier (SiPM) analog front end '
 github_branch: SIPM01A
 github_branches:
-- master
 github_description: 'Silicon photomultiplier (SiPM) analog front end '
 github_repo: SIPM01
 github_url: https://github.com/mlab-modules/SIPM01
