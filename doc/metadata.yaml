@@ -7,9 +7,18 @@ github_repo: SIPM01
 github_url: https://github.com/mlab-modules/SIPM01
 homepage: false
 images:
+- doc/gen/img/SIPM01-bottom.png
+- doc/gen/img/SIPM01-top.png
 - doc/img/SIPM01A_QRcode.png
+- doc/gen/SIPM01-schematic.svg
+- doc/gen/img/SIPM01-bottom.svg
+- doc/gen/img/SIPM01-top.svg
+- hw/cam_profi/assembly/SIPM01-assembly_page_01.svg
+- hw/cam_profi/assembly/SIPM01-assembly_page_02.svg
 issues: 0
 mark: 50
+mod_ibom: hw/cam_profi/SIPM01-ibom.html
+mod_scheme: doc/gen/SIPM01-schematic.pdf
 replaced: SIPM02
 status: 3
 tags:
@@ -20,4 +29,4 @@ tags:
 - sipm
 - sipm-detector
 title: SIPM01
-updated: '2024-07-04T21:10:41.842278+00:00'
+updated: '2024-07-04T21:12:41.624861+00:00'
