@@ -9,11 +9,11 @@ images:
 - doc/gen/img/SIPM01-bottom.png
 - doc/gen/img/SIPM01-top.png
 - doc/img/SIPM01A_QRcode.png
+- hw/cam_profi/assembly/SIPM01-assembly_page_01.svg
+- hw/cam_profi/assembly/SIPM01-assembly_page_02.svg
 - doc/gen/SIPM01-schematic.svg
 - doc/gen/img/SIPM01-bottom.svg
 - doc/gen/img/SIPM01-top.svg
-- hw/cam_profi/assembly/SIPM01-assembly_page_01.svg
-- hw/cam_profi/assembly/SIPM01-assembly_page_02.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/SIPM01-ibom.html
@@ -28,4 +28,4 @@ tags:
 - sipm
 - sipm-detector
 title: SIPM01
-updated: '2024-07-04T21:51:22.898553+00:00'
+updated: '2024-07-15T01:09:25.293974+00:00'
