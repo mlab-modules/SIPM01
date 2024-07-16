@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/SIPM01.kicad_sch</source>
-    <date>Thu Jul  4 21:12:04 2024</date>
-    <tool>Eeschema 7.0.11+1</tool>
+    <date>2024-07-16T01:10:16+0000</date>
+    <tool>Eeschema 8.0.3+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>SIPM01A</title>
@@ -27,10 +27,14 @@
     <comp ref="BT1">
       <value>BH23APC</value>
       <footprint>Mlab_Batery:BH23APC</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Batery:BH23APC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Single-cell battery"/>
       <property name="ki_keywords" value="battery cell"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bab2954</tstamps>
@@ -38,10 +42,14 @@
     <comp ref="BT2">
       <value>BH23APC</value>
       <footprint>Mlab_Batery:BH23APC</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Batery:BH23APC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Single-cell battery"/>
       <property name="ki_keywords" value="battery cell"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bab2a55</tstamps>
@@ -49,10 +57,14 @@
     <comp ref="BT3">
       <value>BH23APC</value>
       <footprint>Mlab_Batery:BH23APC</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Batery:BH23APC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Single-cell battery"/>
       <property name="ki_keywords" value="battery cell"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bab2a9d</tstamps>
@@ -60,138 +72,204 @@
     <comp ref="C1">
       <value>4u7/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babb28a</tstamps>
     </comp>
     <comp ref="C2">
       <value>470uF/50V - GT470/50</value>
       <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="CP-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babd940</tstamps>
     </comp>
     <comp ref="C3">
       <value>-</value>
       <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <fields>
+        <field name="Footprint">Mlab_C:TantalC_SizeC_Reflow</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="CP-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babd9c0</tstamps>
     </comp>
     <comp ref="C4">
       <value>4u7/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babf361</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bac0701</tstamps>
     </comp>
     <comp ref="C6">
       <value>100n/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad50ea</tstamps>
     </comp>
     <comp ref="C7">
       <value>4u7/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad88d1</tstamps>
     </comp>
     <comp ref="C8">
       <value>100n/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad88e9</tstamps>
     </comp>
     <comp ref="C9">
       <value>4u7/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad9d84</tstamps>
     </comp>
     <comp ref="C10">
       <value>100n/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad9d9c</tstamps>
     </comp>
     <comp ref="C11">
       <value>4u7/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005badbaab</tstamps>
     </comp>
     <comp ref="C12">
       <value>100n/50V</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005badbac3</tstamps>
     </comp>
     <comp ref="J1">
       <value>HEADER_2x04_PARALLEL</value>
       <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x04_PARALLEL" description="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="2x04 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="ki_keywords" value="2x04, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005b3e4e7a</tstamps>
@@ -199,10 +277,14 @@
     <comp ref="J2">
       <value>JUMP2_2x1</value>
       <footprint>Mlab_Pin_Headers:Zkrat</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Zkrat</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_Jumpers" part="JUMP2_2x1" description="MLAB modified doubled pinheader connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="MLAB modified doubled pinheader connector"/>
       <property name="ki_keywords" value="JUMPER PINHEADER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bac3451</tstamps>
@@ -210,10 +292,14 @@
     <comp ref="J3">
       <value>JUMP2_2x1</value>
       <footprint>Mlab_Pin_Headers:Zkrat</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Zkrat</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_Jumpers" part="JUMP2_2x1" description="MLAB modified doubled pinheader connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="MLAB modified doubled pinheader connector"/>
       <property name="ki_keywords" value="JUMPER PINHEADER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bac3746</tstamps>
@@ -221,10 +307,14 @@
     <comp ref="J4">
       <value>JUMP2_2x1</value>
       <footprint>Mlab_Pin_Headers:Zkrat</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Zkrat</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_Jumpers" part="JUMP2_2x1" description="MLAB modified doubled pinheader connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="MLAB modified doubled pinheader connector"/>
       <property name="ki_keywords" value="JUMPER PINHEADER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bac37a8</tstamps>
@@ -232,10 +322,14 @@
     <comp ref="J5">
       <value>JUMP2_2x1</value>
       <footprint>Mlab_Pin_Headers:Zkrat</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Zkrat</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_Jumpers" part="JUMP2_2x1" description="MLAB modified doubled pinheader connector"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="MLAB modified doubled pinheader connector"/>
       <property name="ki_keywords" value="JUMPER PINHEADER"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bac3804</tstamps>
@@ -243,6 +337,11 @@
     <comp ref="M1">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
@@ -253,6 +352,11 @@
     <comp ref="M2">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
@@ -263,6 +367,11 @@
     <comp ref="M3">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
@@ -273,6 +382,11 @@
     <comp ref="M4">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:MountingHole_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
@@ -283,130 +397,199 @@
     <comp ref="R1">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babac6b</tstamps>
     </comp>
     <comp ref="R2">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babb15a</tstamps>
     </comp>
     <comp ref="R3">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad88c3</tstamps>
     </comp>
     <comp ref="R4">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad88ca</tstamps>
     </comp>
     <comp ref="R5">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad9d76</tstamps>
     </comp>
     <comp ref="R6">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad9d7d</tstamps>
     </comp>
     <comp ref="R7">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005badba9d</tstamps>
     </comp>
     <comp ref="R8">
       <value>R</value>
       <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Footprint">Mlab_R:SMD-0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005badbaa4</tstamps>
     </comp>
     <comp ref="RV1">
       <value>3296W</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005babb517</tstamps>
     </comp>
     <comp ref="RV2">
       <value>3296W</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad88d8</tstamps>
     </comp>
     <comp ref="RV3">
       <value>3296W</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005bad9d8b</tstamps>
     </comp>
     <comp ref="RV4">
       <value>3296W</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="SIPM01-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005badbab2</tstamps>
     </comp>
     <comp ref="U1">
       <value>ARRAYC-60035-4P-BGA</value>
       <footprint>Mlab_D:ArrayC-60035-4P-BGA</footprint>
+      <fields>
+        <field name="Footprint">Mlab_D:ArrayC-60035-4P-BGA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_IO" part="ARRAYC-60035-4P-BGA" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="SIPM01.kicad_sch"/>
@@ -421,7 +604,9 @@
       <fields>
         <field name="Reference">BT</field>
         <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
       </fields>
       <pins>
         <pin num="1" name="+" type="passive"/>
@@ -437,7 +622,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -453,7 +640,9 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -465,6 +654,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x04_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x04 2.54 mm pitch header, 2 pins next to each other are connected</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -481,6 +673,9 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ARRAYC-60035-4P-BGA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="A1" name="" type="passive"/>
@@ -499,6 +694,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JUMP2_2x1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">MLAB modified doubled pinheader connector</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -509,6 +707,9 @@
       <fields>
         <field name="Reference">M</field>
         <field name="Value">HOLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -521,6 +722,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">Device:CP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -534,6 +738,9 @@
       <fields>
         <field name="Reference">RV</field>
         <field name="Value">Device:R_POT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
